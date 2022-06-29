@@ -1,0 +1,48 @@
+body{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_n3PvNAhDhj_vlwS3cyrQopF40BfSG4RuBg&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+h1{
+    background-color: black;
+    color: white;
+    font-family: 'Titan One', cursive;
+    padding: 10px;
+}
+#sketch_btn{
+    float:right;
+    background-color: white;
+    color: black;
+
+    border: 3px solid #810955;
+
+}
+p{
+    margin-top: 10px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    
+}
+#clear{
+    margin-top: 5px;
+    background-color: #810955;
+    color: white;
+    font-family: 'Rubik Moonrocks', cursive;
+
+}
+canvas{
+    margin-top: 100px;
+    border: 2px solid black ;
+    border-radius: 30px;
+    animation-name: colors;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes colors {
+    from{box-shadow: 10px 20px 30px #810955;}
+    to{box-shadow: 10px 20px 30px #EE81B3;}
+    
+}
